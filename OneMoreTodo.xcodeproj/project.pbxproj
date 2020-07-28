@@ -16,6 +16,19 @@
 		552F32EE24D05B8600233F7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552F32EC24D05B8600233F7D /* LaunchScreen.storyboard */; };
 		552F32FC24D0603D00233F7D /* Progressbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552F32FB24D0603D00233F7D /* Progressbar.swift */; };
 		552F32FE24D066F800233F7D /* CheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552F32FD24D066F800233F7D /* CheckboxView.swift */; };
+		552F330024D06EA100233F7D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552F32FF24D06EA100233F7D /* Extensions.swift */; };
+		552F330224D06F7700233F7D /* NeumorphicEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552F330124D06F7700233F7D /* NeumorphicEffect.swift */; };
+		552F330424D071D600233F7D /* NeumorphicConcaveEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552F330324D071D600233F7D /* NeumorphicConcaveEffect.swift */; };
+		552F330624D073C300233F7D /* GradientText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552F330524D073C300233F7D /* GradientText.swift */; };
+		552F330824D0757000233F7D /* DarkStyleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552F330724D0757000233F7D /* DarkStyleBackground.swift */; };
+		552F330A24D0789A00233F7D /* NeumorphicProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552F330924D0789A00233F7D /* NeumorphicProgressBar.swift */; };
+		552F330C24D07B1F00233F7D /* NeumorphicCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552F330B24D07B1F00233F7D /* NeumorphicCheckbox.swift */; };
+		552F330E24D0809300233F7D /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552F330D24D0809300233F7D /* CoreDataManager.swift */; };
+		552F331024D0843400233F7D /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552F330F24D0843400233F7D /* TodoViewModel.swift */; };
+		552F331224D084EB00233F7D /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552F331124D084EB00233F7D /* TodoListViewModel.swift */; };
+		552F331424D086D700233F7D /* AddNewTodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552F331324D086D700233F7D /* AddNewTodoViewModel.swift */; };
+		552F331624D0873900233F7D /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552F331524D0873900233F7D /* HomeScreen.swift */; };
+		552F331824D08C2900233F7D /* AddNewTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552F331724D08C2900233F7D /* AddNewTodoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +43,19 @@
 		552F32EF24D05B8600233F7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = OneMoreTodo/App/Info.plist; sourceTree = SOURCE_ROOT; };
 		552F32FB24D0603D00233F7D /* Progressbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progressbar.swift; sourceTree = "<group>"; };
 		552F32FD24D066F800233F7D /* CheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
+		552F32FF24D06EA100233F7D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		552F330124D06F7700233F7D /* NeumorphicEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicEffect.swift; sourceTree = "<group>"; };
+		552F330324D071D600233F7D /* NeumorphicConcaveEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicConcaveEffect.swift; sourceTree = "<group>"; };
+		552F330524D073C300233F7D /* GradientText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientText.swift; sourceTree = "<group>"; };
+		552F330724D0757000233F7D /* DarkStyleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkStyleBackground.swift; sourceTree = "<group>"; };
+		552F330924D0789A00233F7D /* NeumorphicProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicProgressBar.swift; sourceTree = "<group>"; };
+		552F330B24D07B1F00233F7D /* NeumorphicCheckbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicCheckbox.swift; sourceTree = "<group>"; };
+		552F330D24D0809300233F7D /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		552F330F24D0843400233F7D /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
+		552F331124D084EB00233F7D /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
+		552F331324D086D700233F7D /* AddNewTodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTodoViewModel.swift; sourceTree = "<group>"; };
+		552F331524D0873900233F7D /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		552F331724D08C2900233F7D /* AddNewTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTodoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				552F32E224D05B8200233F7D /* OneMoreTodo.xcdatamodeld */,
+				552F330D24D0809300233F7D /* CoreDataManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -106,6 +133,13 @@
 			children = (
 				552F32FB24D0603D00233F7D /* Progressbar.swift */,
 				552F32FD24D066F800233F7D /* CheckboxView.swift */,
+				552F32FF24D06EA100233F7D /* Extensions.swift */,
+				552F330124D06F7700233F7D /* NeumorphicEffect.swift */,
+				552F330324D071D600233F7D /* NeumorphicConcaveEffect.swift */,
+				552F330524D073C300233F7D /* GradientText.swift */,
+				552F330724D0757000233F7D /* DarkStyleBackground.swift */,
+				552F330924D0789A00233F7D /* NeumorphicProgressBar.swift */,
+				552F330B24D07B1F00233F7D /* NeumorphicCheckbox.swift */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -121,6 +155,8 @@
 			isa = PBXGroup;
 			children = (
 				552F32E524D05B8200233F7D /* ContentView.swift */,
+				552F331524D0873900233F7D /* HomeScreen.swift */,
+				552F331724D08C2900233F7D /* AddNewTodoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -128,6 +164,9 @@
 		552F32FA24D05F5F00233F7D /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				552F330F24D0843400233F7D /* TodoViewModel.swift */,
+				552F331124D084EB00233F7D /* TodoListViewModel.swift */,
+				552F331324D086D700233F7D /* AddNewTodoViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -203,12 +242,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				552F331224D084EB00233F7D /* TodoListViewModel.swift in Sources */,
+				552F330224D06F7700233F7D /* NeumorphicEffect.swift in Sources */,
+				552F331424D086D700233F7D /* AddNewTodoViewModel.swift in Sources */,
 				552F32FC24D0603D00233F7D /* Progressbar.swift in Sources */,
 				552F32DF24D05B8200233F7D /* AppDelegate.swift in Sources */,
+				552F331024D0843400233F7D /* TodoViewModel.swift in Sources */,
+				552F330824D0757000233F7D /* DarkStyleBackground.swift in Sources */,
 				552F32E124D05B8200233F7D /* SceneDelegate.swift in Sources */,
 				552F32FE24D066F800233F7D /* CheckboxView.swift in Sources */,
 				552F32E624D05B8200233F7D /* ContentView.swift in Sources */,
+				552F330624D073C300233F7D /* GradientText.swift in Sources */,
 				552F32E424D05B8200233F7D /* OneMoreTodo.xcdatamodeld in Sources */,
+				552F331824D08C2900233F7D /* AddNewTodoView.swift in Sources */,
+				552F330024D06EA100233F7D /* Extensions.swift in Sources */,
+				552F330A24D0789A00233F7D /* NeumorphicProgressBar.swift in Sources */,
+				552F331624D0873900233F7D /* HomeScreen.swift in Sources */,
+				552F330424D071D600233F7D /* NeumorphicConcaveEffect.swift in Sources */,
+				552F330E24D0809300233F7D /* CoreDataManager.swift in Sources */,
+				552F330C24D07B1F00233F7D /* NeumorphicCheckbox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
