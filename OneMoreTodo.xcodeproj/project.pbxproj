@@ -14,6 +14,8 @@
 		552F32E824D05B8600233F7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 552F32E724D05B8600233F7D /* Assets.xcassets */; };
 		552F32EB24D05B8600233F7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 552F32EA24D05B8600233F7D /* Preview Assets.xcassets */; };
 		552F32EE24D05B8600233F7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552F32EC24D05B8600233F7D /* LaunchScreen.storyboard */; };
+		552F32FC24D0603D00233F7D /* Progressbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552F32FB24D0603D00233F7D /* Progressbar.swift */; };
+		552F32FE24D066F800233F7D /* CheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552F32FD24D066F800233F7D /* CheckboxView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +27,9 @@
 		552F32E724D05B8600233F7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		552F32EA24D05B8600233F7D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		552F32ED24D05B8600233F7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		552F32EF24D05B8600233F7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		552F32EF24D05B8600233F7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = OneMoreTodo/App/Info.plist; sourceTree = SOURCE_ROOT; };
+		552F32FB24D0603D00233F7D /* Progressbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progressbar.swift; sourceTree = "<group>"; };
+		552F32FD24D066F800233F7D /* CheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +62,12 @@
 		552F32DD24D05B8200233F7D /* OneMoreTodo */ = {
 			isa = PBXGroup;
 			children = (
-				552F32DE24D05B8200233F7D /* AppDelegate.swift */,
-				552F32E024D05B8200233F7D /* SceneDelegate.swift */,
-				552F32E524D05B8200233F7D /* ContentView.swift */,
-				552F32E724D05B8600233F7D /* Assets.xcassets */,
-				552F32EC24D05B8600233F7D /* LaunchScreen.storyboard */,
-				552F32EF24D05B8600233F7D /* Info.plist */,
-				552F32E224D05B8200233F7D /* OneMoreTodo.xcdatamodeld */,
+				552F32FA24D05F5F00233F7D /* ViewModels */,
+				552F32F924D05F5700233F7D /* Views */,
+				552F32F824D05F4C00233F7D /* Models */,
+				552F32F724D05F4000233F7D /* Controls */,
+				552F32F624D05F3500233F7D /* Services */,
+				552F32F524D05F3000233F7D /* App */,
 				552F32E924D05B8600233F7D /* Preview Content */,
 			);
 			path = OneMoreTodo;
@@ -76,6 +79,57 @@
 				552F32EA24D05B8600233F7D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		552F32F524D05F3000233F7D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				552F32DE24D05B8200233F7D /* AppDelegate.swift */,
+				552F32E024D05B8200233F7D /* SceneDelegate.swift */,
+				552F32E724D05B8600233F7D /* Assets.xcassets */,
+				552F32EC24D05B8600233F7D /* LaunchScreen.storyboard */,
+				552F32EF24D05B8600233F7D /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		552F32F624D05F3500233F7D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				552F32E224D05B8200233F7D /* OneMoreTodo.xcdatamodeld */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		552F32F724D05F4000233F7D /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				552F32FB24D0603D00233F7D /* Progressbar.swift */,
+				552F32FD24D066F800233F7D /* CheckboxView.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		552F32F824D05F4C00233F7D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		552F32F924D05F5700233F7D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				552F32E524D05B8200233F7D /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		552F32FA24D05F5F00233F7D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +203,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				552F32FC24D0603D00233F7D /* Progressbar.swift in Sources */,
 				552F32DF24D05B8200233F7D /* AppDelegate.swift in Sources */,
 				552F32E124D05B8200233F7D /* SceneDelegate.swift in Sources */,
+				552F32FE24D066F800233F7D /* CheckboxView.swift in Sources */,
 				552F32E624D05B8200233F7D /* ContentView.swift in Sources */,
 				552F32E424D05B8200233F7D /* OneMoreTodo.xcdatamodeld in Sources */,
 			);
@@ -292,7 +348,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"OneMoreTodo/Preview Content\"";
 				DEVELOPMENT_TEAM = TA2UAPFU92;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = OneMoreTodo/Info.plist;
+				INFOPLIST_FILE = OneMoreTodo/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +368,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"OneMoreTodo/Preview Content\"";
 				DEVELOPMENT_TEAM = TA2UAPFU92;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = OneMoreTodo/Info.plist;
+				INFOPLIST_FILE = OneMoreTodo/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
